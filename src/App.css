@@ -42,3 +42,16 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textArea{
+  width: auto;
+  height: 20vh;
+  border: 2px solid black;
+  border-radius: 3px;
+  
+}
