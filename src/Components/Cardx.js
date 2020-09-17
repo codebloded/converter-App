@@ -1,44 +1,39 @@
 import React from 'react';
 import '../App.css'
 import {
-    Card,
-    CardActionArea,
-    CardMedia,
-    CardContent,
+    Container,
     Typography,
     Button,
-    CardActions, Grid
+    Grid
 } from '@material-ui/core';
 
 
 function Cardx() {
+
     return (
         <React.Fragment>
-            <div className="App">
-                <Grid md={12} container spacing={2} >
-                    <Grid item xs={12}  md={4}>
-                        <Card >
+            <div className="App card">
+                <Grid md={6} lg={12} sm={6} container spacing={2} >
+                    <Grid item xs={12} md={6}>
 
-                            <CardActionArea>
-                                <CardMedia  style={{maxWidth:'245px'}} />
-                                <CardContent>
-                                    <Typography gutterBottom variant='h5' component='h2'>
-                                        Card-1
+                        <Container className='App'>
+
+                            <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center', margin: '12px' }}>
+                                Card-1
+                                </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
                             </Typography>
-                                    <Typography variant='body2' color='textSecondary' component='p'>
-                                        Hey this is card 1 and thhis is gonna be more interactive furthur
-                                        Hey this is card 1 and thhis is gonna be more interactive furthur
-                                        Hey this is card 1 and thhis is gonna be more interactive furthur
-                                        Hey this is card 1 and thhis is gonna be more interactive furthur
-                                        Hey this is card 1 and thhis is gonna be more interactive furthur
-                            </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                            <CardActions>
-                                <Button variant='contained' color='secondary'>Card1</Button>
-                                <Button variant='contained' color='secondary'>Card2</Button>
-                            </CardActions>
-                        </Card>
+                        </Container>
+                        <div className='buttons'>
+                            <Button variant='contained' color='primary'>Card1</Button>
+                            <Button variant='contained' color='primary'>Card2</Button>
+                        </div>
+
+
+
+
+
                     </Grid>
                 </Grid>
             </div>
