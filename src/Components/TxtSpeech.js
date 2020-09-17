@@ -73,6 +73,20 @@ function TxtSpeech() {
         window.speechSynthesis.speak(speech);
     }
     window.speechSynthesis.getVoices();
+    const speakFxn = ()=>{
+        const script = new window.SpeechSynthesisUtterance();
+        script.text = note;
+        script.volume=2;
+        script.rate = 1;
+        script.pitch =1;
+        let voices= speechSynthesis.getVoices();
+        script.voice = voices[4];
+      
+        speechSynthesis.getVoices();
+        script.lang = 'en-US'
+        window.speechSynthesis.speak(script);
+    }
+    window.speechSynthesis.getVoices();
     return (
         <React.Fragment>
             <div className="App card-layout">
@@ -87,7 +101,7 @@ function TxtSpeech() {
                         </IconButton>
                         <h5>Tap mic then speak</h5>
                         <div className="textArea">{note}</div>
-                        <Button variant='contained' color='primary' style={{ marginTop: "10px" }}>Save</Button>
+                        <Button variant='contained' color='primary' onClick={speakFxn}  style={{ marginTop: "10px" }}>speak the note</Button>
                     </div>
                 </Container>
             </div>
