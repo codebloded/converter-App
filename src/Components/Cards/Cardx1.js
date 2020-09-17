@@ -1,14 +1,14 @@
 import React from 'react';
-import '../App.css'
+
 import {
     Container,
     Typography,
     Button,
     Grid
 } from '@material-ui/core';
+import {Link} from 'react-router-dom';
 
-
-function Cardx() {
+function Cardx1() {
 
     return (
         <React.Fragment>
@@ -19,25 +19,20 @@ function Cardx() {
                         <Container className='App'>
 
                             <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center', margin: '12px' }}>
-                                Card-1
+                                Card-2
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
                                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
                             </Typography>
                         </Container>
                         <div className='buttons'>
-                            <Button variant='contained' color='primary'>Card1</Button>
-                            <Button variant='contained' color='primary'>Card2</Button>
+                            <Link  to="/cards/texttospeech" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Card1</Button></Link>
                         </div>
-
-
-
-
-
+                    
                     </Grid>
                 </Grid>
             </div>
         </React.Fragment>
     )
 }
-export default Cardx;
+export default Cardx1;

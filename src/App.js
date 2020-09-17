@@ -5,6 +5,10 @@ import Login from './Components/Login';
 import SignUp from './Components/SignUp'
 import {BrowserRouter , Route} from 'react-router-dom';
 import ShowCards from './Components/ShowCards';
+import ImageToPdf from './Components/ImageToPdf';
+import TextToSpeech from './Components/TxtSpeech';
+import PdfToWord from './Components/PdfToWord';
+
 
 
 function App() {
@@ -12,10 +16,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Main/>
-        
-        <Route path='/login' component={Login}/>
-        <Route path='/signup' component={SignUp}/>
-        <Route path='/cards' component={ShowCards}/>
+        <Route exact path='/login' component={Login}/>
+        <Route exact path='/signup' component={SignUp}/>
+        <Route exact path='/cards' component={ShowCards}/>
+        <Route exact path='/cards/imgconvtr' component={ImageToPdf}/>
+        <Route exact path="/cards/texttospeech" component={TextToSpeech}/>
+        <Route exact path="/cards/pdftoword" component={PdfToWord}/>
       </BrowserRouter>
     </div>
   );
