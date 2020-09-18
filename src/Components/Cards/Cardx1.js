@@ -25,6 +25,8 @@ function Cardx1() {
                                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
                             </Typography>
                         </Container>
+                        
+
                         <div className='buttons'>
                             <Link  to="/cards/texttospeech" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Card1</Button></Link>
                         </div>

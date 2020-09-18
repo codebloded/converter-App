@@ -13,7 +13,7 @@ function Cardx() {
     return (
         <React.Fragment>
             <div className="App card">
-                <Grid md={6} lg={12} sm={6} container spacing={2} >
+                <Grid items md={6} lg={12} sm={6} container spacing={2} >
                     <Grid item xs={12} md={6}>
 
                         <Container className='App'>

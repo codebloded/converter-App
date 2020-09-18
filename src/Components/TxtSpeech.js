@@ -76,12 +76,11 @@ function TxtSpeech() {
     const speakFxn = ()=>{
         const script = new window.SpeechSynthesisUtterance();
         script.text = note;
-        script.volume=2;
+        script.volume=1;
         script.rate = 1;
         script.pitch =1;
         let voices= speechSynthesis.getVoices();
         script.voice = voices[4];
-      
         speechSynthesis.getVoices();
         script.lang = 'en-US'
         window.speechSynthesis.speak(script);
