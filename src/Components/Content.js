@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '@material-ui/core/Button'
 import {Link} from 'react-router-dom';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import Footer from "./Footer";
 function Content (){
-    useEffect(() => {
-        welcome();
-    })
+    const[sound, setSound]=useState(false);
     function welcome(){
         const speaks = new window.SpeechSynthesisUtterance();
         speaks.text ="Hello welcome here  to Converterx!, developed by code-blooded! Click here!, to get started";
@@ -15,12 +13,14 @@ function Content (){
         speaks.pitch = 1;
         const voices = speechSynthesis.getVoices();
         speaks.voice = voices[4];
-        speechSynthesis.getVoices();
         speaks.lang = 'en-US';
         window.speechSynthesis.speak(speaks);
     }
-    window.speechSynthesis.getVoices();
+    window.speechSynthesis.getVoices()
+    useEffect(() => {
 
+        welcome();
+    },[setSound])
     return(
         <div className='App'>
             <h1>Converter.JS</h1>
