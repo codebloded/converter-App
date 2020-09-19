@@ -14,7 +14,7 @@ function ImageToPdf (){
             const imgFile= canvas.toDataURL('image/jpeg');
             
             const doc = new jsPDF('landscape');
-            doc.addImage(imgFile,'PNG',0,20, 298,0);
+            doc.addImage(imgFile,'PNG',0,20, 150,0);
             
             doc.save('smaple.pdf');
            
@@ -48,7 +48,7 @@ function ImageToPdf (){
                 </div>
                 </Container>
             </div>
-            <canvas id="canv" height="500px" width="500px"></canvas>
+            <canvas id="canv" style={{height:"300px" ,width:"300px"}}></canvas>
 
             <div className="card-layout">
 

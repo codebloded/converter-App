@@ -22,7 +22,7 @@ function Cardx1() {
                                 Text And Speech
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
+                                This app converts the audio from your microphone into the text ,You have to click on the mic icon there and mic is get starts then speak something ,it will automatically convert the voice into the text. 
                             </Typography>
                         </Container>
                         

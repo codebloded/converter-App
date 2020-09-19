@@ -21,10 +21,11 @@ function MainComponent() {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="inherit" style={{ flexGrow: 1 }}>
-                            Converter.Js
+                            Converter-X
                     </Typography>
-                        <Link to="/signup" style={{color:'white', textDecoration:'none'}}><Button color="inherit">Sign up</Button></Link>
-                        <Link to="/login" style={{color:'white', textDecoration:'none'}}><Button color="inherit">Login</Button></Link>
+                        {/* <Link to="/signup" style={{color:'white', textDecoration:'none',margin:"8px"}}><Button variant='contained' color="primary">SignUp</Button></Link> */}
+                        <Link to="/login" style={{color:'white', textDecoration:'none',margin:"8px"}}><Button variant='contained' color="primary">Login</Button></Link>
+                        <Link style={{textDecoration:'none', margin:"8px"}} to='/'><Button variant='contained' color='primary'>Home</Button></Link>
                     </Toolbar>
                 </AppBar>
             </div>

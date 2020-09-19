@@ -22,7 +22,7 @@ function Cardx2() {
                                 Image Compression
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
+                               This inputs a image (png,jpg,jpeg) and then compress the size of the image ,you have to choose a image form the local storage and the hit Compress, it will take sometime to compress and then it will availabe you to download the compressed Image.
                             </Typography>
                         </Container>
                         <div className='buttons'>

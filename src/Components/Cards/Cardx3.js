@@ -19,10 +19,10 @@ function Cardx3() {
                         <Container className='App'>
 
                             <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center', margin: '12px' }}>
-                                Unknown
+                                Word To Pdf | PDF to word
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
+                               This is under-development , i am working on this if you have any sugesstion and want to contribute  then you can contact me on my social media handles. 
                             </Typography>
                         </Container>
                         <div className='buttons'>

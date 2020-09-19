@@ -5,8 +5,7 @@ import Cardx2 from '../Components/Cards/Cardx2';
 import Cardx3 from '../Components/Cards/Cardx3';
 import Grid from '@material-ui/core/Grid'
 import { Container } from '@material-ui/core';
-import { Button } from '@material-ui/core/';
-import {Link} from 'react-router-dom';
+
 
 
 function ShowCards(){

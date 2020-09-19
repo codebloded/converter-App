@@ -22,7 +22,7 @@ function Cardx() {
                                 Image To PDF
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
+                               This converts the .JPG and .PNG images into the pdf fromat . You have to choose the file from the local storage and then hit the generate button below ,then automatically the PDF is download on your system.
                             </Typography>
                         </Container>
                         <div className='buttons'>
