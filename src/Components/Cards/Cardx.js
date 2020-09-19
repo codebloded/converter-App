@@ -26,7 +26,7 @@ function Cardx() {
                             </Typography>
                         </Container>
                         <div className='buttons'>
-                            <Link  to="/cards/imgconvtr" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Card1</Button></Link>
+                            <Link  to="/cards/imgconvtr" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>try it</Button></Link>
                         </div>
                     
                     </Grid>

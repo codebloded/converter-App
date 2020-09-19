@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
 
 
+
 function MainComponent() {
     return (
         <React.Fragment>
@@ -23,9 +24,9 @@ function MainComponent() {
                         <Link to="/signup" style={{color:'white', textDecoration:'none'}}><Button color="inherit">Sign up</Button></Link>
                         <Link to="/login" style={{color:'white', textDecoration:'none'}}><Button color="inherit">Login</Button></Link>
                     </Toolbar>
-                    
                 </AppBar>
             </div>
+
         </React.Fragment>
     );
 }

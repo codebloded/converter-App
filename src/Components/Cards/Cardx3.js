@@ -19,14 +19,14 @@ function Cardx3() {
                         <Container className='App'>
 
                             <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center', margin: '12px' }}>
-                                Card-3
+                                Unknown
                                 </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
                                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, rangin across all continents except Antarctica
                             </Typography>
                         </Container>
                         <div className='buttons'>
-                            <Link  to="/cards/imgconvtr" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Card1</Button></Link>
+                            <Link  to="/cards/underdev" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Try it</Button></Link>
                         </div>
 
                     </Grid>

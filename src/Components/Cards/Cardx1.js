@@ -27,10 +27,10 @@ function Cardx1() {
                         </Container>
                         
 
-                        <div className='buttons'>
-                            <Link  to="/cards/texttospeech" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>Card1</Button></Link>
+                        <div className='buttons '>
+                            <Link  to="/cards/texttospeech" style={{textDecoration:'none'}} ><Button variant='contained' color='primary'>try it</Button></Link>
                         </div>
-                    
+                                   
                     </Grid>
                 </Grid>
             </div>

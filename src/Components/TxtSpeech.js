@@ -64,7 +64,7 @@ function TxtSpeech() {
             speech.text = message2;
         }
         speech.volume = 1;
-        speech.rate = 1;
+        speech.rate = 0.95;
         speech.pitch = 1;
         const voices = speechSynthesis.getVoices();
         speech.voice = voices[4];
@@ -77,7 +77,7 @@ function TxtSpeech() {
         const script = new window.SpeechSynthesisUtterance();
         script.text = note;
         script.volume=1;
-        script.rate = 1;
+        script.rate = 0.95;
         script.pitch =1;
         let voices= speechSynthesis.getVoices();
         script.voice = voices[4];

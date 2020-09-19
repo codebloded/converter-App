@@ -72,9 +72,6 @@ function ImageCompression() {
                 </Grid>
 
             </Grid>
-
-
-
             <div className="card-layout" >
 
                 <Link style={{ textDecoration: 'none', margin: "8px" }} to='/'><Button variant='contained' color='primary' style={{ marginBottom: "7px" }}>Home</Button></Link>

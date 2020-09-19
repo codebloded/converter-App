@@ -5,10 +5,6 @@ import { Container } from '@material-ui/core';
 import html2Canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
-
-
-
-
 function ImageToPdf (){
     
     const generatePdf =()=>{
@@ -53,6 +49,7 @@ function ImageToPdf (){
                 </Container>
             </div>
             <canvas id="canv" height="500px" width="500px"></canvas>
+
             <div className="card-layout">
 
             <Link style={{textDecoration:'none', margin:"8px"}} to='/'><Button variant='contained' color='primary' style={{marginBottom:"7px"}}>Home</Button></Link>
